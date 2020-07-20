@@ -1,3 +1,6 @@
+/target
+/.idea
+Top N.iml
 # Compiled class file
 *.class
 

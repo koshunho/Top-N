@@ -1,22 +1,10 @@
-# Top-N
-Redis Zset
+package com.huang;
 
-## 需求
-- top N
-- 个人排名，和周围人的位次
+import org.junit.jupiter.api.Test;
+import org.springframework.web.client.RestTemplate;
 
-注意，在Zset中， 排行默认是0为开头，因此实际的排名需要+1
+import java.util.Random;
 
-## 测试
-
-用RestTemplate来请求API
-
-RestTemplate来请求API就是 Spring 封装的处理同步 HTTP 请求的类
-
-详解[RestTemplate](https://juejin.im/post/5cd680eff265da037b612e28#heading-3)
-
-此处Zset的key为""global_rank""
-```java
 public class Top_N {
     private Random random;
     private RestTemplate restTemplate;
@@ -47,10 +35,3 @@ public class Top_N {
         }
     }
 }
-```
-
-![Top 10](http://qcorkht4q.bkt.clouddn.com/blog1595231187449.png)
-
-![根据userId查询排名](http://qcorkht4q.bkt.clouddn.com/blog1595231275701.png)
-
-![根据userId查询上下n个名次](http://qcorkht4q.bkt.clouddn.com/blog1595231333863.png)
