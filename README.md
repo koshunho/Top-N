@@ -49,12 +49,12 @@ public class Top_N {
 }
 ```
 ##### Top 10
-![Top 10](http://qcorkht4q.bkt.clouddn.com/blog1595231187449.png)
+![Top 10](https://raw.githubusercontent.com/koshunho/koshunhopic/master/blog1595231187449.png)
 
 ##### 根据userId查询排名
-![根据userId查询排名](http://qcorkht4q.bkt.clouddn.com/blog1595231275701.png)
+![根据userId查询排名](https://raw.githubusercontent.com/koshunho/koshunhopic/master/blog1595231275701.png)
 
 ##### 根据userId查询上下n个名次
-![根据userId查询上下n个名次](http://qcorkht4q.bkt.clouddn.com/blog1595231333863.png)
+![根据userId查询上下n个名次](https://raw.githubusercontent.com/koshunho/koshunhopic/master/blog1595231333863.png)
 
 idea by @一灰灰
